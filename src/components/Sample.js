@@ -21,7 +21,6 @@ const Sample = () => {
 };
 
 export default Sample;
-
 /*
 
 import Form from "./Form"
