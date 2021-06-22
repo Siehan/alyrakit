@@ -7,8 +7,10 @@ export const styles = {
   }),
 };
 
-// src/theme/styles.js
+export default styles;
+
 /*
+// src/theme/styles.js
 
 import { mode } from "@chakra-ui/theme-tools";
 export const styles = {
@@ -21,7 +23,4 @@ export const styles = {
     },
   }),
 };
-
-
 */
-export default styles;

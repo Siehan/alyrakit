@@ -7,10 +7,12 @@ const SwitchColorMode = () => {
   return (
     <IconButton
       ml="2"
+      bg={"whiteAlpha"}
       onClick={toggleColorMode}
       aria-label="Toggle color mode"
       icon={colorMode === "light" ? <MoonIcon /> : <SunIcon />}
       variant="outline"
+      borderRadius="md"
     />
   );
 };

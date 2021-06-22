@@ -2,7 +2,7 @@ import { List, ListItem, Link } from "@chakra-ui/react";
 
 const NavigationListItems = ({ sx }) => {
   return (
-    <List sx={{ textTransform: "uppercase", a: { p: 2, display: "inline-block" }, ...sx }}>
+    <List sx={{ textTransform: "uppercase", a: { p: 3, m: 1, display: "inline-block" }, ...sx }}>
       <ListItem>
         <Link href="/#sample">Sample</Link>
       </ListItem>
@@ -19,8 +19,8 @@ const NavigationListItems = ({ sx }) => {
 };
 
 export default NavigationListItems;
-/*
 
+/*
 import { Link, List, ListItem } from "@chakra-ui/react";
 
 const NavigationListItems = ({ sx }) => {

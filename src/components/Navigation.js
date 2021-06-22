@@ -1,7 +1,8 @@
 import { Box, Container, Link, useMediaQuery, useColorModeValue } from "@chakra-ui/react";
-import MobileNavigation from "./MobileNavigation";
+import MobileNavigationDrawer from "./MobileNavigationDrawer";
 import NavigationListItems from "./NavigationListItems";
 import SwitchColorMode from "./SwitchColorMode";
+
 const Navigation = () => {
   const [isMobile] = useMediaQuery("(max-width: 720px)");
   console.log(isMobile);
@@ -9,6 +10,7 @@ const Navigation = () => {
   return (
     <Box position="fixed" py="3" w="100%" bg={bg} zIndex="sticky">
       <Container
+        alignItems="center"
         as="nav"
         maxW="container.lg"
         d="flex"
@@ -22,9 +24,9 @@ const Navigation = () => {
           AlyraKit
         </Link>
         {isMobile ? (
-          <MobileNavigation>
+          <MobileNavigationDrawer>
             <NavigationListItems />
-          </MobileNavigation>
+          </MobileNavigationDrawer>
         ) : (
           <NavigationListItems sx={{ display: "flex" }} />
         )}

@@ -11,7 +11,6 @@ import {
 } from "@chakra-ui/react";
 import working from "../assets/working.svg";
 import { CheckCircleIcon } from "@chakra-ui/icons";
-
 const ListFeatures = () => {
   const list = ["Lifetime updates", "Tons of assets", "Tech support", "Integration ready"];
   const bg = useColorModeValue("gray.50", "teal.700");
@@ -59,6 +58,7 @@ const ListFeatures = () => {
                 )
               })}
             </SimpleGrid>
+            
             */}
           </Box>
         </Stack>
