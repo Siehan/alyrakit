@@ -1,11 +1,11 @@
-import Features from "./Features";
-import Footer from "./Footer";
-import GetStarted from "./GetStarted";
-import Header from "./Header";
-import ListFeatures from "./ListFeatures";
 import Navigation from "./Navigation";
-import Pricing from "./Pricing";
+import Header from "./Header";
+import Features from "./Features";
+import ListFeatures from "./ListFeatures";
 import Sample from "./Sample";
+import Pricing from "./Pricing";
+import GetStarted from "./GetStarted";
+import Footer from "./Footer";
 
 const LandingPage = () => {
   return (
