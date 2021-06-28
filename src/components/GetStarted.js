@@ -4,7 +4,19 @@ const GetStarted = () => {
     <LightMode>
       <Box as="section" textAlign="center" bg="teal.900" py="20" color="white" id="buy-now">
         <Container maxWidth="container.md">
-          <Badge colorScheme="whiteAlpha">Get Started</Badge>
+          <Badge
+            as="span"
+            textTransform="uppercase"
+            fontSize="12px"
+            colorScheme="whiteAlpha"
+            borderRadius="2xl"
+            fontWeight="bold"
+            mb={6}
+            paddingX={2}
+            paddingY={1}
+          >
+            Get Started
+          </Badge>
           <Heading mb="6" fontFamily="special">
             Get AlyraKit and save your time
           </Heading>
